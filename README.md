@@ -1,6 +1,6 @@
 ---
 
-## 🛡️ Full-Stack Monitoring & Security Lab
+## Full-Stack Monitoring & Security Lab
 
 ### Kompletne poligon doświadczalny: Monitoring, IDS & Penetration Testing
 
@@ -8,7 +8,7 @@ To środowisko łączy światy **DevOps** i **Cybersecurity**, oferując w pełn
 
 ---
 
-## 🏗️ Architektura Systemu
+## Architektura Systemu
 
 * **Monitoring:** Zabbix (Server, Web, Agents), Prometheus, Grafana
 * **Security (IDS):** Suricata
@@ -17,7 +17,7 @@ To środowisko łączy światy **DevOps** i **Cybersecurity**, oferując w pełn
 
 ---
 
-## 🚀 Szybki Start
+## Szybki Start
 
 ```bash
 # Sklonuj projekt
@@ -35,15 +35,15 @@ docker compose up -d --build
 ## 🛠️ Panel Sterowania (Dashboardy)
 | Usługa | URL | Użytkownik | Hasło |
 | :--- | :--- | :--- | :--- |
-| **🔍 Zabbix** | [http://localhost:8080](http://localhost:8080) | `Admin` | `zabbix` |
-| **📊 Grafana** | [http://localhost:3000](http://localhost:3000) | `admin` | `admin` |
-| **📈 Prometheus** | [http://localhost:9090](http://localhost:9090) | `-` | `-` |
-| **📝 WordPress** | [http://localhost:8081](http://localhost:8081) | `WiktorN` | `MbMvQpZJJBEuU2#wyZ` |
-| **🧪 Joomla** | [http://localhost:8082](http://localhost:8082) | `WiktorN` | `MbMvQpZJJBEuU2#wyZ` |
+| ** Zabbix** | [http://localhost:8080](http://localhost:8080) | `Admin` | `zabbix` |
+| ** Grafana** | [http://localhost:3000](http://localhost:3000) | `admin` | `admin` |
+| ** Prometheus** | [http://localhost:9090](http://localhost:9090) | `-` | `-` |
+| ** WordPress** | [http://localhost:8081](http://localhost:8081) | `WiktorN` | `MbMvQpZJJBEuU2#wyZ` |
+| ** Joomla** | [http://localhost:8082](http://localhost:8082) | `WiktorN` | `MbMvQpZJJBEuU2#wyZ` |
 
 ---
 
-## ⚔️ Kali Linux - Centrum Ataku
+## Kali Linux - Centrum Ataku
 Kontener Kali jest gotowy do pracy zaraz po starcie.
 
 ```Bash
@@ -53,7 +53,7 @@ docker exec -it kali-attacker bash
 
 ---
 
-## 📂 Struktura Projektu
+## Struktura Projektu
 ```Plaintext
 .
 ├── config/             # Konfiguracje (Prometheus, Suricata)
@@ -65,7 +65,7 @@ docker exec -it kali-attacker bash
 
 ---
 
-## 🕵️ Weryfikacja Systemu i Scenariusze Testowe
+## Weryfikacja Systemu i Scenariusze Testowe
 
 Ten projekt został wstępnie skonfigurowany do dynamicznej analizy zdarzeń bezpieczeństwa. Użyj poniższych scenariuszy, aby sprawdzić działanie stosu SOC:
 
@@ -95,7 +95,7 @@ docker exec -it kali-attacker curl http://wordpress.
 
 ---
 
-## ⚠️ Rozwiązywanie problemów
+## Rozwiązywanie problemów
 * **Zasoby:** Upewnij się, że Docker ma przydzielone minimum **4GB RAM**
 
 *   **Uprawnienia:** Jeśli bazy danych nie wstają, sprawdź uprawnienia do folderu data/.
